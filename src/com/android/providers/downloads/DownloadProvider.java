@@ -227,6 +227,7 @@ public final class DownloadProvider extends ContentProvider {
         addMapping(map, Downloads.Impl.COLUMN_IS_VISIBLE_IN_DOWNLOADS_UI);
         addMapping(map, Downloads.Impl.COLUMN_LAST_MODIFICATION);
         addMapping(map, Downloads.Impl.COLUMN_MEDIAPROVIDER_URI);
+        addMapping(map, Downloads.Impl.COLUMN_MEDIASTORE_URI);
         addMapping(map, Downloads.Impl.COLUMN_MEDIA_SCANNED);
         addMapping(map, Downloads.Impl.COLUMN_MIME_TYPE);
         addMapping(map, Downloads.Impl.COLUMN_NO_INTEGRITY);
